@@ -1,0 +1,44 @@
+<html>
+
+   <head>
+    <title>Fruit Game</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width:device-width, initial-scale:1, user-scalable:yes">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/blitzer/jquery-ui.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="lives">
+            <span id="lives-left"></span>
+        </div>
+        <div id="score">
+            <p id="text-score">Score:&nbsp;<span id="score-value"></span></p>
+        </div>
+
+        <div id="clear"></div>
+
+        <div id="game-window">
+            <img src="" alt="Fruit" id="fruits" class="fruit">
+        </div>
+
+        <div id="action"> Catch Fruits</div>
+
+        <div id="reset">Start Game</div>
+
+        <div id="game-over">
+            <p>GAME OVER ! <br/> Your Score is:&nbsp;<span id="final-score"></span></p>
+        </div>
+    </div>
+    <audio id="sound">
+        <source src="audio/slice.wav"><source>
+    </audio>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="jquery.js">
+    </script>
+</body>
+</html>
